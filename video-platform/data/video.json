@@ -1,0 +1,12 @@
+[
+{
+    "title": "Video Demo 1",
+    "file": "video1.mp4",
+    "thumbnail": "thumb1.jpg"
+    },
+{
+    "title": "Video Demo 2",
+    "file": "video2.mp4",
+    "thumbnail": "thumb2.jpg"
+    }
+]

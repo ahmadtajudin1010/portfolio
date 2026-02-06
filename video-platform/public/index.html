@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MyTube</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
+</head>
+
+<body>
+
+    <header class="navbar-wrap">
+        <nav class="navbar">
+
+            <button class="hamburger" id="menuBtn">☰</button>
+
+            <div class="nav-middle">
+
+                <div class="logo" onclick="location.href='index.html'">🏠</div>
+
+                <div class="search">
+                    <span>🔍</span>
+                    <input placeholder="Cari...">
+                </div>
+
+                <button class="icon-btn" id="themeToggle">🌙</button>
+                <button class="icon-btn">🔔</button>
+
+            </div>
+
+            <div class="avatar"></div>
+
+        </nav>
+    </header>
+
+    <aside class="sidebar hidden" id="sidebar">
+        <div class="side-icon" id="homeBtn">🎬</div>
+        <div class="side-icon">🔥</div>
+        <div class="side-icon">📺</div>
+        <div class="side-icon">🎵</div>
+    </aside>
+
+    <div class="overlay hidden" id="overlay"></div>
+
+    <main class="main">
+        <div class="video-grid" id="videoGrid"></div>
+    </main>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/sidebar.js"></script>
+
+</body>
+
+</html>

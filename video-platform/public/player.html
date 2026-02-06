@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Player</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
+</head>
+
+<body>
+
+    <header class="navbar-wrap">
+        <nav class="navbar">
+
+            <button class="hamburger" id="menuBtn">☰</button>
+
+            <div class="nav-middle">
+
+                <div class="logo" onclick="location.href='index.html'">🎬</div>
+
+                <div class="search">
+                    <span>🔍</span>
+                    <input placeholder="Cari...">
+                </div>
+
+                <button class="icon-btn" id="themeToggle">🌙</button>
+                <button class="icon-btn">🔔</button>
+
+            </div>
+
+            <div class="avatar"></div>
+
+        </nav>
+    </header>
+
+    <aside class="sidebar hidden" id="sidebar"></aside>
+    <div class="overlay hidden" id="overlay"></div>
+
+    <main class="player-page">
+
+        <video id="player" controls autoplay muted></video>
+
+        <div class="player-info">
+            <h2 id="title"></h2>
+            <p id="meta"></p>
+        </div>
+
+    </main>
+
+    <script src="./js/player.js"></script>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/sidebar.js"></script>
+
+</body>
+
+</html>
